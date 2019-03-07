@@ -63,6 +63,8 @@ module.exports = {
       options: {
         apiKey: process.env.SNIPCART_API_KEY,
         autopop: true,
+        jquery:
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
